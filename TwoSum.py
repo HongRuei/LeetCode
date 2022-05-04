@@ -10,7 +10,9 @@ class Solution:
             else:
                 dict[nums[i]] = i
             
-        #Brute Force
+        ## Brute Force
+        ## Time complexity: O(N^2)
+        ## Space complexity: O(1)
         #index_list = []
         #for x in nums:
         #    if target-x != x and target-x in nums:
