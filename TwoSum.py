@@ -1,5 +1,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        ## Hash Table
         ## Time complexity: O(N)
         ## Space complexity: O(N)
         dict = {}
